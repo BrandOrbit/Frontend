@@ -33,7 +33,7 @@ const Home = () => {
               Global Performance Marketing Agency
             </h1>
             <p className='text-gray-700 mb-4 text-lg'>Are You Looking for Best Performance Marketing Agency in India That Delivers Real Results?</p>
-            <p className="text-gray-700 mb-4 text-lg">
+            <p className="text-gray-700 mb-4 text-lg ">
               At <span className="font-bold text-pink-600">Brand Orbit Media</span>, we help businesses grow with data-driven performance marketing strategies. From <span className="font-bold">Affiliate marketing</span> and <span className="font-bold">native ads</span> to <span className="font-bold">Email Marketing</span>, we focus on what matters most – ROI and scalable growth.
             </p>
             <p className="text-gray-700 mb-8 text-lg">
@@ -82,7 +82,76 @@ const Home = () => {
         </div>
       </section>
 
-      
+
+      {/* Third Section */}
+       <section className='my-15'>
+         {/* upper image and text */}
+        <section className="bg-white pt-12 pb-20  w-6xl mx-auto">
+        <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center w-full">
+          {/* Left Text Section */}
+          <div className="md:w-1/2 md:pl-12 flex flex-col justify-center ">
+          
+            <h1 className="text-xl md:text-4xl font-extrabold leading-tight text-pink-700 mb-5">
+             Why Choose Brand Orbit Media?
+
+            </h1>
+            
+            <p className="text-gray-700 mb-4 text-lg text-justify">
+              Choose <span className="font-bold text-pink-600">Brand Orbit Media</span> for innovation, results-driven marketing solutions that elevate your brand. We are Best Digital Marketing Agency in India. Our expert team specializes in  <span className="font-bold">Affiliate marketing,</span> <span className="font-bold">Performance Marketing</span> and <span className="font-bold">mobile marketing, </span><span className="font-bold">native ads</span> and <span className="font-bold">social media ads</span>, creating customized strategies to maximize ROI. With a focus on data, performance, and growth, we’re committed to delivering measurable results and driving your business forward in today’s competitive digital landscape.
+            </p>
+            
+          </div>
+          {/* Right Image Section */}
+          <div
+            className="md:w-1/2 flex justify-center transition-all duration-700 ease-in-out"
+            // onMouseEnter={() => setHovered(true)}
+            // onMouseLeave={() => setHovered(false)}
+          >
+            <img
+              src="/Why.png"
+              alt="Hero graphic"
+              className={`  w-150 h-100 transition-all duration-700`}
+            />
+          </div>
+        </div>
+      </section>
+
+           {/* below image and text */}
+          <section className="bg-white pt-12 pb-20  w-6xl mx-auto">
+        <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center w-full">
+               {/* Right Image Section */}
+          <div
+            className="md:w-1/2 flex justify-center transition-all duration-700 ease-in-out"
+            // onMouseEnter={() => setHovered(true)}
+            // onMouseLeave={() => setHovered(false)}
+          >
+            <img
+              src="/Benefits.png"
+              alt="Hero graphic"
+              className={`  w-110 h-100 transition-all duration-700 ${
+                hovered
+                  ? "scale-105 opacity-100"
+                  : "scale-100 opacity-90"
+              }`}
+            />
+          </div>
+          {/* Left Text Section */}
+          <div className="md:w-1/2 md:pl-12 flex flex-col justify-center ">
+              <h1 className="text-xl md:text-3xl font-extrabold leading-tight text-pink-600 ">Our Benefits</h1>
+            <h1 className="text-xl md:text-3xl font-bold leading-tight text-black-100 mb-5">
+            GET MORE TRAFFIC ON YOUR BRAND.
+
+            </h1>
+            
+            <p className="text-gray-700 mb-4 text-lg text-justify">
+           Brand Orbit Media is a results-driven performance marketing agency in Noida committed to delivering measurable growth. We optimize every campaign for maximum ROI, helping you reach the right audience with precision and impact.
+            </p>
+            
+          </div>
+        
+        </div>
+      </section>
+       </section>
     </div>
   )
 }
