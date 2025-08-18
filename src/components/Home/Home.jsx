@@ -20,6 +20,32 @@ const Home = () => {
             description:"Integrating ads seamlessly into content for enhanced user experience."
         }
     ]
+      const benefits = [
+    {
+      title: "Maximize ROI",
+      desc: "Leverage all performance-driven strategies to ensure you get the most out of every dollar spent."
+    },
+    {
+      title: "Boost Engagement",
+      desc: "Engage directly with your audience through targeted and personalized marketing efforts."
+    },
+    {
+      title: "Increase Brand Awareness",
+      desc: "Use native ads and social media to make your brand more recognizable and trusted."
+    },
+    {
+      title: "Drive Sales",
+      desc: "Expand your reach and drive conversions by partnering with trusted affiliates."
+    },
+    {
+      title: "Improve Conversion",
+      desc: "Tailored email marketing campaigns designed to convert leads into loyal customers."
+    },
+    {
+      title: "100% Response Time",
+      desc: "We guarantee quick, real-time responses to ensure you never miss an opportunity."
+    },
+  ];
   return (
     <div className="flex flex-col items-center w-full">
       <section className="bg-white pt-12 pb-20  w-6xl mx-auto">
@@ -84,7 +110,7 @@ const Home = () => {
 
 
       {/* Third Section */}
-       <section className='my-15'>
+       <section className='mt-15'>
          {/* upper image and text */}
         <section className="bg-white pt-12 pb-20  w-6xl mx-auto">
         <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center w-full">
@@ -152,6 +178,27 @@ const Home = () => {
         </div>
       </section>
        </section>
+
+       {/* Fourth Section */}
+       <section className="bg-gray-100 py-12 w-full mx-auto">
+        {/* upper text */}
+        <div className="max-w-6xl w-full mx-auto flex flex-row justify-center items-center">
+             <h2 className="text-4xl font-bold mb-4">
+           Our <span className='text-4xl font-semibold text-pink-600 mb-4'>Benefits </span>
+          </h2>
+        </div>
+        <div className="max-w-6xl w-full mx-auto mt-12 grid grid-cols-1 md:grid-cols-3 gap-y-12 gap-x-8 justify-items-center text-center">
+          {benefits.map((item, idx) => (
+            <div key={idx} className="flex flex-col items-center">
+              <div className="font-bold text-xl text-gray-900 mb-2">
+                {item.title}
+              </div>
+              <div className="text-gray-500 text-justify w-60">{item.desc}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
     </div>
   )
 }
