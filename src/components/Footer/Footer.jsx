@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import { FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
 export default function Footer() {
     return (
         <footer className="bg-white border-y fixed top-142 left-0 right-0 z-10">
@@ -33,21 +33,26 @@ export default function Footer() {
                         </div>
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
-                            <ul className="text-gray-500 font-medium">
+                            <ul className="">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
-                                        className="hover:underline"
+                                        href="https://www.linkedin.com/company/brandorbit-media-pvt-ltd/"
+                                        className="hover:scale-110 transition-transform duration-200 "
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Github
+                                       <FaLinkedin className='hover:scale-110 transition-transform duration-200 size-6' />
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
-                                    </Link>
+                                      <a
+                                        href="https://github.com/hiteshchoudhary"
+                                        className="hover:scale-110 transition-transform duration-200"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                       <FaSquareInstagram className='hover:scale-110 transition-transform duration-200 size-6' />
+                                    </a>
                                 </li>
                             </ul>
                         </div>

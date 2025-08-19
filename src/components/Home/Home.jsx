@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ServicesCards from '../Card/ServicesCards';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [hovered, setHovered] = useState(false);
@@ -70,9 +71,11 @@ const Home = () => {
             <p className="text-gray-700 mb-8 text-lg">
               Whether you're looking to maximize your ROI, generate high-quality leads, or boost online sales, we create customized campaigns that convert.
             </p>
-            <button className="hover:bg-pink-700 hover:text-white text-pink-600 px-6 py-3 rounded-full font-semibold shadow-lg transition duration-600 text-lg w-fit mb-2 mx-auto cursor-pointer">
+            <Link to="/contact" className='mx-auto'>
+              <button className="hover:bg-pink-700 hover:text-white text-pink-600 px-6 py-3 rounded-full font-semibold shadow-lg transition duration-600 text-lg w-fit mb-2 mx-auto cursor-pointer">
               Get Started
             </button>
+            </Link>
           </div>
           {/* Right Image Section */}
           <div
