@@ -18,6 +18,8 @@ import Seo from './components/ServicesExplanation/Seo.jsx'
 import MetaAds from './components/ServicesExplanation/MetaAds.jsx'
 import ProgrammaticBuying from './components/ServicesExplanation/ProgrammaticBuying.jsx'
 import Search from './components/ServicesExplanation/Search.jsx'
+import PrivacyPolicy from './components/Footer/PrivacyPolicy.jsx'
+import TermAndCondition from './components/Footer/TermAndCondition.jsx'
    
 const router = createBrowserRouter([ 
      {
@@ -72,6 +74,14 @@ const router = createBrowserRouter([
            path: 'search-display',
            element: <Search />
         },
+        {
+           path:'privacy-policy',
+           element: <PrivacyPolicy />
+        },
+        {
+           path:'terms-and-conditions',
+           element: <TermAndCondition />
+        }
       ]
      }
  ])
