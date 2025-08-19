@@ -46,7 +46,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                       <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://www.instagram.com/brandorbitmedia/?igsh=MWh6OGJsM201ZmhweA%3D%3D#"
                                         className="hover:scale-110 transition-transform duration-200"
                                         target="_blank"
                                         rel="noreferrer"
