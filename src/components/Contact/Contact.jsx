@@ -107,15 +107,16 @@ const Contact = () => {
   </p>
   <p className="flex items-center space-x-2 pb-2">
     <IoIosMail />
-    <span>info@example.com</span>
+    <span> support@brandorbitmedia.in
+</span>
   </p>
-  <p className="flex items-center space-x-2 pb-2">
+  {/* <p className="flex items-center space-x-2 pb-2">
    <PiPhoneDisconnectBold />
     <span>+1 234 567 890</span>
-  </p>
+  </p> */}
   <p className="flex items-center space-x-2 pb-2">
     <FaPhoneVolume />
-    <span>Call us anytime</span>
+    <span>8510883944, 8285635939</span>
   </p>
 </div>
           </div>
