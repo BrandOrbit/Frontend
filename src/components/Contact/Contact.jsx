@@ -103,7 +103,7 @@ const Contact = () => {
               <div className="ml-35 items-center space-x-6 text-gray-700 my-2">
   <p className="flex items-center space-x-2 pb-2">
     <FaUniversity />
-    <span>Your partner in digital marketing excellence.</span>
+    <span>712, A-40, Tower B, Ithum Tower, Sector 62, Noida</span>
   </p>
   <p className="flex items-center space-x-2 pb-2">
     <IoIosMail />
