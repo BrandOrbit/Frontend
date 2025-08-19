@@ -10,6 +10,14 @@ import About from './components/About/About.jsx'
 import OurServices from './components/Services/OurServices.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import { Toaster } from 'react-hot-toast'
+import PerformanceMarketing from './components/ServicesExplanation/PerformanceMarketing.jsx'
+import MobileMarketing from './components/ServicesExplanation/MobileMarketing .jsx'
+import NativeAds from './components/ServicesExplanation/NativeAds.jsx'
+import MediaBuying from './components/ServicesExplanation/MediaBuying.jsx'
+import Seo from './components/ServicesExplanation/Seo.jsx'
+import MetaAds from './components/ServicesExplanation/MetaAds.jsx'
+import ProgrammaticBuying from './components/ServicesExplanation/ProgrammaticBuying.jsx'
+import Search from './components/ServicesExplanation/Search.jsx'
    
 const router = createBrowserRouter([ 
      {
@@ -31,6 +39,38 @@ const router = createBrowserRouter([
         {
           path: 'services',
           element: <OurServices/>
+        },
+        {
+          path: 'performancemarketing',
+          element: <PerformanceMarketing />
+        },
+        {
+           path: 'mobilemarketing',
+           element: <MobileMarketing />
+        },
+        {
+           path: 'nativeads',
+           element: <NativeAds />
+        },
+        {
+           path: 'mediabuying',
+           element: <MediaBuying />
+        },
+        {
+           path: 'seo',
+           element: <Seo />
+        },
+        {
+           path: 'metaads',
+           element: <MetaAds />
+        },
+        {
+           path: 'programmatic',
+           element: <ProgrammaticBuying />
+        },
+        {
+           path: 'search-display',
+           element: <Search />
         },
       ]
      }

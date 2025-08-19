@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 // NativeAdCard.jsx
 export default function ServicesCards({ item }) {
@@ -13,13 +14,14 @@ export default function ServicesCards({ item }) {
       </div>
       <h3 className="text-2xl font-semibold mb-2 text-gray-900">{item.title}</h3>
       <p className="text-gray-500 mb-6">{item.description}</p>
+     <Link to={item.linkToInfo}>
       <button
         className="px-8 py-2 rounded border-2 border-[#fd2e6a] text-[#fd2e6a] font-semibold transition 
         duration-1000 group-hover:bg-gradient-to-r group-hover:from-[#fd2e6a] group-hover:to-[#ff5c5c] 
-        group-hover:text-white group-hover:border-transparent"
+        group-hover:text-white group-hover:border-transparent cursor-pointer"
       >
         Read More
-      </button>
+      </button></Link>
     </div>
   );
 }

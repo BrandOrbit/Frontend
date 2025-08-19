@@ -6,36 +6,44 @@ const OurServices = () => {
         {
 
   title: "Performance Marketing",
-  description: "Maximizing ROI through data-driven and results-oriented strategies."
+  description: "Maximizing ROI through data-driven and results-oriented strategies.",
+  linkToInfo:"/performancemarketing"
   
 },
         {
             title:"Mobile Marketing",
-            description:"Targeting mobile users with personalized and impactful campaigns."
+            description:"Targeting mobile users with personalized and impactful campaigns.",
+            linkToInfo:"/mobilemarketing"
         },
         {
             title:"Native Ads",
-            description:"Integrating ads seamlessly into content for enhanced user experience."
+            description:"Integrating ads seamlessly into content for enhanced user experience.",
+            linkToInfo:"/nativeads"
         },
         {
             title:"Media Buying",
-            description:"Strategic ad placements across various channels to maximize reach and engagement."
+            description:"Strategic ad placements across various channels to maximize reach and engagement.",
+            linkToInfo:"/mediabuying"
         },
         {
             title:"SEO & Organic Growth",
-            description:"Implementing strategies to improve search engine rankings and drive organic traffic."
+            description:"Implementing strategies to improve search engine rankings and drive organic traffic.",
+            linkToInfo:"/seo"
         },
         {
             title:"Meta Ads",
-            description:"Leveraging social media platforms for targeted advertising and brand visibility."
+            description:"Leveraging social media platforms for targeted advertising and brand visibility.",
+            linkToInfo:"/metaads"
         },
         {
             title:"Programmatic Buying",
-            description:"Automating the buying and placement of ads in real-time to optimize campaigns."
+            description:"Automating the buying and placement of ads in real-time to optimize campaigns.",
+            linkToInfo:"/programmatic"
         },
         {
             title:"Search and Display campaigns",
-            description:"Targeting users through search engines and display networks to increase visibility."
+            description:"Targeting users through search engines and display networks to increase visibility.",
+            linkToInfo:"/search-display"
         },
     ]
   return (
