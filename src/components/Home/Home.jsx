@@ -9,17 +9,20 @@ const Home = () => {
 
   title: "Performance Marketing",
   description: "Maximizing ROI through data-driven and results-oriented strategies.",
-  linkToInfo:"/performancemarketing"
+  linkToInfo:"/performancemarketing",
+  icon:'/PerformanceMarketing.png'
 },
         {
             title:"Mobile Marketing",
             description:"Targeting mobile users with personalized and impactful campaigns.",
-            linkToInfo:"/mobilemarketing"
+            linkToInfo:"/mobilemarketing",
+            icon:'/MobileMarketing.png'
         },
         {
             title:"Native Ads",
             description:"Integrating ads seamlessly into content for enhanced user experience.",
-            linkToInfo:"/nativeads"
+            linkToInfo:"/nativeads",
+            icon:'/NativeAds.png'
         }
     ]
       const benefits = [

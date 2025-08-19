@@ -7,43 +7,50 @@ const OurServices = () => {
 
   title: "Performance Marketing",
   description: "Maximizing ROI through data-driven and results-oriented strategies.",
-  linkToInfo:"/performancemarketing"
-  
+  linkToInfo:"/performancemarketing",
+  icon:'/PerformanceMarketing.png'
 },
         {
             title:"Mobile Marketing",
             description:"Targeting mobile users with personalized and impactful campaigns.",
-            linkToInfo:"/mobilemarketing"
+            linkToInfo:"/mobilemarketing",
+            icon:'/MobileMarketing.png'
         },
         {
             title:"Native Ads",
             description:"Integrating ads seamlessly into content for enhanced user experience.",
-            linkToInfo:"/nativeads"
+            linkToInfo:"/nativeads",
+            icon:'/NativeAds.png'
         },
         {
             title:"Media Buying",
             description:"Strategic ad placements across various channels to maximize reach and engagement.",
-            linkToInfo:"/mediabuying"
+            linkToInfo:"/mediabuying",
+            icon:'/MediaBuying.png'
         },
         {
             title:"SEO & Organic Growth",
             description:"Implementing strategies to improve search engine rankings and drive organic traffic.",
-            linkToInfo:"/seo"
+            linkToInfo:"/seo",
+            icon:'/SeoAndOrganic.png'
         },
         {
             title:"Meta Ads",
             description:"Leveraging social media platforms for targeted advertising and brand visibility.",
-            linkToInfo:"/metaads"
+            linkToInfo:"/metaads",
+            icon:'/MetaAds.png'
         },
         {
             title:"Programmatic Buying",
             description:"Automating the buying and placement of ads in real-time to optimize campaigns.",
-            linkToInfo:"/programmatic"
+            linkToInfo:"/programmatic",
+            icon:'/ProgrammaticBuying.png'
         },
         {
             title:"Search and Display campaigns",
             description:"Targeting users through search engines and display networks to increase visibility.",
-            linkToInfo:"/search-display"
+            linkToInfo:"/search-display",
+            icon:'/SearchAndDisplay.png'
         },
     ]
   return (

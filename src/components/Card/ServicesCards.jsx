@@ -8,8 +8,7 @@ export default function ServicesCards({ item }) {
       hover:shadow-2xl hover:border-transparent group">
       <div className="flex justify-center mb-4">
         <div className="rounded-full w-20 h-20 flex items-center justify-center ">
-         
-           <img src="/logo.png" alt="image " />
+           <img src={`${item.icon}`} alt="image " className='rounded-full' />
         </div>
       </div>
       <h3 className="text-2xl font-semibold mb-2 text-gray-900">{item.title}</h3>
